@@ -1,0 +1,371 @@
+
+@font-face {
+  font-family: "Minion";
+  src: url('./Minion\ Condensed.otf');
+}
+
+
+
+*{
+  font-family: "Minion";
+}
+.App {
+  border: 1px hidden black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f0e5;
+  position: relative;
+}
+
+.formContainer{
+  border: 1px hidden red;
+  height: auto;
+  width: 800px;
+  margin-top: 80px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+}
+
+.logo{
+  border: 1px hidden black;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formContent{
+  border: 1px hidden pink;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2.1em;
+position: relative;
+margin-bottom: 20px;
+}
+
+
+
+
+.imglogo img{
+  height: 100px;
+  width: 290px;
+}
+
+
+.formFiled{
+  border: 1px hidden blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  height: auto;
+  margin-top: 30px;
+  
+}
+
+ .inputName{
+  width: 680px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;
+  border: none;
+  outline: none;
+ }
+
+ .inputPrenom{
+  width: 640px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;  
+  border: none;
+  outline: none;
+ }
+
+ .inputTel{
+  width: 620px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;
+  border: none;
+  outline: none;
+ }
+
+ .dateContent{
+  border: 1px hidden black;
+  height: auto;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+ }
+
+ .inputDay{
+  border: 1px hidden black;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;
+  outline: none;
+ }
+
+ .alerte{
+ font-size: 0.5em;
+   height: auto;
+ 
+ }
+.inputMonth{
+  border: 1px hidden black;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;
+  outline: none;
+}
+
+.modalSuccess{
+  border: 1px hidden red;
+  height: 200px;
+ /* background-color: #f4f0e5;*/
+ background-color: white;
+ color: #8dc63f;
+
+  font-size: 2.2em;
+  text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+ .inputYear{
+  border: 1px hidden black;
+  width: 170px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;
+  outline: none;
+ }
+
+.inputEmail{
+  border: 1px hidden black;
+  width: 650px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #dbdad5;
+  outline: none;
+}
+
+.selectOption{
+  width: 380px;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 0.7em;
+  background-color: #dbdad5;
+  border: none;
+  outline: none;
+}
+
+.buttonSubmit{
+  border: 1px hidden black;
+  width: 95%;
+  height: auto;
+  margin-top: 50px;
+}
+
+
+
+.buttonSubmit button{
+  height: 45px;
+  width: auto;
+  font-size: 1em;
+  border-radius: 10px;
+  border: none;
+ background-color: #664946;
+ color: white;
+}
+
+.footerForm{
+  border: 1px hidden blue;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.socialMedia{
+  border: 1px hidden black;
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.8em;
+}
+
+
+.adressText{
+  font-size: 2.1em;
+}
+
+
+
+
+.flower{
+  position: absolute;
+  top: 520px;
+  right: 0;
+  height: 180px;
+}
+
+
+.img1{
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.flower1{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.flower2{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  z-index: 2;
+}
+
+.facebookIcon, .instagramIcon{
+  height: 50px;
+  width: 50px;
+}
+
+
+
+.links{
+  color: black;
+  text-decoration: none;
+}
+
+.heart {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width : 1366px) {
+  .flower1, .flower2, .img1, .flower{
+display: none;
+  }
+  
+ 
+}
+
+
+
+
+@media screen  and (max-width : 800px){
+  .formContainer{
+    width: 96%;
+  }
+
+  .formFiled{
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+border: 1px hidden black;
+  }
+
+
+  .formContent{
+    height: auto;
+  }
+
+  .selectOption, .inputEmail,  .inputYear, .inputMonth,  .inputDay, .inputTel,  .inputPrenom,  .inputName{
+  width: 500px;
+  }
+  .dateContent {
+    flex-direction: column;
+  }
+
+  .inputYear, .inputMonth,  .inputDay{
+    margin-top: 10px;
+  }
+
+  .dateContent{
+    width: 100%;
+  }
+
+  .socialMedia{
+flex-direction: column;
+align-items: flex-start;
+  }
+
+
+  .adressText{
+    width: 95%;
+  }
+
+
+  .label{
+    border: 1px hidden black;
+    height: auto;
+    width: 500px;
+display: flex;
+justify-content: flex-start;
+
+  }
+
+
+}
+
+
+
+
+@media screen and (max-width : 566px) {
+  .selectOption, .inputEmail,  .inputYear, .inputMonth,  .inputDay, .inputTel,  .inputPrenom,  .inputName{
+    width: 400px;
+    }
+    .label{
+      width: 400px;
+    }
+}
+
+
+@media screen and (max-width : 494px) {
+  .selectOption, .inputEmail,  .inputYear, .inputMonth,  .inputDay, .inputTel,  .inputPrenom,  .inputName{
+    width: 320px;
+    }
+
+    .label{
+      width: 320px;
+    }
+}
+
+@media screen and (max-width: 362px){
+  .selectOption, .inputEmail,  .inputYear, .inputMonth,  .inputDay, .inputTel,  .inputPrenom,  .inputName{
+    width: 290px;
+    }
+    .label{
+      width: 290px;
+    }
+}

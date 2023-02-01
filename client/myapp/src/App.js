@@ -36,14 +36,11 @@ const [data, setData] = useState({
 })
 
 const [show, setShow] = useState(false);
-
 const getSelectOption = () => {
   const optionsValue = document.querySelector('#selectOption');
   setSoins(optionsValue.value);
         setData({Soins : soins})
 }
-
-
 const controlShow = () => {
   setShowSuccess(!showSuccess)
 }
@@ -76,7 +73,6 @@ const sendData = ()=> {
       <img src={img1} className="img1" alt="im1"/>
       <img src={img2} className="flower1" alt="im2" />
       <img src={img3} className="flower2" alt="im3" />
-
       <div className="formContainer">
         <div className="logo">
           <div className="imglogo">
